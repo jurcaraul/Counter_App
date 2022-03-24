@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Monoton&family=Press+Start+2P&display=swap");
+* {
+  box-sizing: border-box;
+}
+::-webkit-scrollbar {
+  width: 2px;
+  background-color: white;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 10px grey;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: white;
+}
+html body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #adb5bd;
+}
+.display {
+  background-color: rgba(80, 74, 74, 0.445);
+}
+.display p {
+  font-size: 1vw;
+  font-family: "Press Start 2P", cursive;
+}
+.display #save-el {
+  overflow-y: scroll;
+  height:5vw;
+}
+
+.title {
+  font-family: "Monoton", cursive;
+}
